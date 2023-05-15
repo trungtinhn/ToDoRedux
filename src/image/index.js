@@ -1,0 +1,1 @@
+export {default as add} from '../image/add.png'
