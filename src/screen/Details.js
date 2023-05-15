@@ -52,11 +52,13 @@ export default function Details() {
       </TouchableOpacity>
     </View>
     </View>
+    <View style = {{width: '100%', marginTop: 20, justifyContent: 'center', flexDirection: 'row'}}>
     <Button
       title='Save'
       onPress={onPress}
-      style ={{marginTop: 20, width: 50}}
+      
     ></Button>
+    </View>
     <View>
       {show && (
         <DateTimePicker
